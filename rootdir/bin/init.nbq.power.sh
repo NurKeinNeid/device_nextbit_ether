@@ -122,6 +122,11 @@ write /proc/sys/kernel/sched_downmigrate 85
 write /proc/sys/kernel/sched_freq_inc_notify 400000
 write /proc/sys/kernel/sched_freq_dec_notify 400000
 
+# Shadow scheduling 
+write /proc/sys/kernel/sched_use_shadow_scheduling 1
+write /proc/sys/kernel/sched_shadow_upmigrate 60
+write /proc/sys/kernel/sched_shadow_downmigrate 30
+
 #enable rps static configuration
 write /sys/class/net/rmnet_ipa0/queues/rx-0/rps_cpus 8
 
