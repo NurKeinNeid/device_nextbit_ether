@@ -15,7 +15,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/nextbit/ether/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_ether
+PRODUCT_NAME := insanity_ether
 BOARD_VENDOR := nextbit
 TARGET_VENDOR := nextbit
 PRODUCT_DEVICE := ether
