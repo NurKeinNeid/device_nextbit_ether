@@ -842,4 +842,4 @@ on property:persist.sys.qlogd=0
     stop qlogd
 
 on property:dev.bootcomplete=1
-    setprop sys.io.scheduler "bfq"
+    setprop sys.io.scheduler "cfq"
